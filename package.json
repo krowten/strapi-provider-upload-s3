@@ -1,0 +1,31 @@
+{
+  "name": "@krowten/strapi-provider-upload-s3",
+  "version": "1.0.4",
+	"author": "Vladimir <vladimir@kraykovskiy.ru>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krowten/strapi-provider-upload-s3"
+  },
+  "description": "S3 upload provider for strapi",
+  "keywords": [
+    "strapi",
+    "AWS S3",
+    "Minio",
+    "Upload Provider"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.297.0",
+    "@aws-sdk/lib-storage": "^3.297.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
