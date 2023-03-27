@@ -1,6 +1,7 @@
 ## Description
 
-Alternate S3 compatible upload provider built with AWS SDK 3 and TypeScript, can work with Minio object storage.
+Alternative S3 compatible upload provider built with AWS JS SDK v3 and TypeScript, can work with Minio object storage. [Based on this example](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/modules/_aws_sdk_lib_storage.html)
+
 
 ## Installation
 

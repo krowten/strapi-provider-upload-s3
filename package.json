@@ -1,6 +1,6 @@
 {
   "name": "@krowten/strapi-provider-upload-s3",
-  "version": "1.0.4",
+  "version": "1.0.5",
 	"author": "Vladimir <vladimir@kraykovskiy.ru>",
   "repository": {
     "type": "git",
@@ -8,7 +8,7 @@
   },
   "description": "S3 upload provider for strapi",
   "keywords": [
-    "strapi",
+    "Strapi",
     "AWS S3",
     "Minio",
     "Upload Provider"
